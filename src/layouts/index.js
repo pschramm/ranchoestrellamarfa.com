@@ -77,7 +77,7 @@ class Template extends React.Component {
 
   _onReady(event) {
     // access to player in all event handlers via event.target
-    // event.target.mute();
+     event.target.mute();
   }
 
   _onEnd(event) {
@@ -92,8 +92,7 @@ class Template extends React.Component {
       playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 1,
         controls: 0,
-        rel: 0,
-        showinfo: 0
+        rel: 0
       }
     };
 
