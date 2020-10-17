@@ -114,19 +114,12 @@ class Template extends React.Component {
             onCloseArticle={this.handleCloseArticle}
           />
           <Footer timeout={this.state.timeout} />
-
         </div>
         {/*<div id="bg"></div>*/}
 
         <div className="video-background">
           <div className="video-foreground">
-            <YouTube
-              videoId="Sgknf2_tHVw"
-              opts={videoOptions}
-              className="video-iframe"
-              onReady={this._onReady}
-              onEnd={this._onEnd}
-            />
+            <video width="100%" height="100%" autoPlay loop muted playsInline> <source src={"/images/video.webm"} type="video/mp4" /> Your browser does not support HTML5 video. </video>
           </div>
         </div>
       </div>
