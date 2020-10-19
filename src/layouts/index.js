@@ -107,13 +107,6 @@ class Template extends React.Component {
         <div id="wrapper">
 
           <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
-          <Main
-            isArticleVisible={this.state.isArticleVisible}
-            timeout={this.state.timeout}
-            articleTimeout={this.state.articleTimeout}
-            article={this.state.article}
-            onCloseArticle={this.handleCloseArticle}
-          />
           <Footer timeout={this.state.timeout} />
 
         </div>
