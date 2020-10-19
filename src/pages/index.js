@@ -15,6 +15,7 @@ class BlogIndex extends React.Component {
         <Helmet>
             <title>{get(this, 'props.data.site.siteMetadata.title')}</title>
             <meta name="description" content={get(this, 'props.data.site.siteMetadata.description')} />
+            <meta property="og:image" content={get(this, 'props.data.site.siteMetadata.image')} />
         </Helmet>
 
       </div>

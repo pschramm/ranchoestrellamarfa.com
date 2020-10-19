@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Rancho Estrella Marfa",
     author: "",
-    description: "Art, Music, Experiences"
+    description: "Art, Music, Experiences",
+    image: "/images/meta.jpg"
   },
   pathPrefix: '/',
   plugins: [
