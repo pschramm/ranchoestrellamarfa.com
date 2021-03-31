@@ -15,7 +15,7 @@ const Header = (props) => (
             <ul>
                 <li><a href="https://www.airbnb.com/rooms/28380739" target="_">1955 Spartan</a></li>
                 <li><a href="https://www.airbnb.com/rooms/9906668" target="_">1965 Tag Along </a></li>
-                <li><a href="https://wa.mhttps://wa.link/ks9o1a">Chat</a></li>
+                <li><a href="https://wa.link/rooxgb">Chat</a></li>
                 <li><a href="mailto:tilloglobe@gmail.com">Email</a></li>
             </ul>
         </nav>
